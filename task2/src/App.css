@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin:  20px auto;
+  width: 300px;
+  border: 1px solid #111;
+}
+.none{
+  display: none;
+}
+.sticer-block{
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: #111 1px solid;
+}
+.sticer-block *{
+  height: 50px;
+  width: 50px;
+}
+.sticer-btn{
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: crimson;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.result-btn{
+  width: calc(100% - 20px);
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
